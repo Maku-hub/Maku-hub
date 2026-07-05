@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋</h1>
+<h2 align="center">Connecting people, systems and ideas into working solutions.</h2>
 
 <p align="center">
   <img src="images/spectrogram.gif" alt="Profile GIF" />
