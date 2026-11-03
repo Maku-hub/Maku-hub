@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="16" viewBox="0 0 800 16">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#7b2fff" stop-opacity="0"/><stop offset="0.5" stop-color="#a66bff"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/></linearGradient>
+    <radialGradient id="pulse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="7" width="800" height="2" fill="url(#line)"/>
+  <ellipse cy="8" rx="40" ry="5" fill="url(#pulse)">
+    <animate attributeName="cx" values="-40;840" dur="3.5s" repeatCount="indefinite"/>
+  </ellipse>
+</svg>

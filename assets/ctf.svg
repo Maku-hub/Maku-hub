@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect width="800" height="280" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <rect x="28" y="31" width="9" height="9" fill="#ff6a00"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></rect>
+  <text x="46" y="40" fill="#a66bff" font-size="12" font-weight="700" letter-spacing="3">CAPTURE THE FLAG</text>
+  <text x="772" y="40" fill="#6e7681" font-size="11" text-anchor="end" font-family="'Cascadia Code','Consolas','Courier New',monospace">3 flags · format: flag{...}</text>
+  <text x="28" y="72" fill="#e6edf3" font-size="15">Three flags are hidden in this profile. Found them all? You know where to find me.</text>
+  
+  <g>
+    <rect x="28" y="96" width="232" height="156" rx="12" fill="#161b22" stroke="#a66bff" stroke-opacity="0.35">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="28" y="96" width="232" height="4" rx="2" fill="#a66bff"/>
+    <g transform="translate(198 146)" fill="#a66bff" opacity="0.14"><rect width="4" height="68"/><path d="M4 0 h40 l-10 14 l10 14 h-40z"/></g>
+    <text x="46" y="128" fill="#a66bff" font-size="13" font-weight="700" font-family="'Cascadia Code','Consolas','Courier New',monospace">#01</text>
+    <text x="242" y="128" fill="#8b949e" font-size="10" letter-spacing="2" text-anchor="end">ENCODING</text>
+    <text x="46" y="162" fill="#ffffff" font-size="20" font-weight="700">Plain sight</text>
+    <text x="46" y="192" fill="#8b949e" font-size="12" font-family="'Cascadia Code','Consolas','Courier New',monospace">Hidden in plain sight.</text><text x="46" y="210" fill="#8b949e" font-size="12" font-family="'Cascadia Code','Consolas','Courier New',monospace">Well, in the source.</text>
+    <text x="46" y="234" fill="#a66bff" font-size="12" font-weight="700" font-family="'Cascadia Code','Consolas','Courier New',monospace">100 PTS</text>
+    <circle cx="202" cy="230" r="4" fill="#a66bff"/><circle cx="214" cy="230" r="4" fill="#30363d"/><circle cx="226" cy="230" r="4" fill="#30363d"/>
+  </g>
+  <g>
+    <rect x="284" y="96" width="232" height="156" rx="12" fill="#161b22" stroke="#22d3ee" stroke-opacity="0.35">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="284" y="96" width="232" height="4" rx="2" fill="#22d3ee"/>
+    <g transform="translate(454 146)" fill="#22d3ee" opacity="0.14"><rect width="4" height="68"/><path d="M4 0 h40 l-10 14 l10 14 h-40z"/></g>
+    <text x="302" y="128" fill="#22d3ee" font-size="13" font-weight="700" font-family="'Cascadia Code','Consolas','Courier New',monospace">#02</text>
+    <text x="498" y="128" fill="#8b949e" font-size="10" letter-spacing="2" text-anchor="end">FORENSICS</text>
+    <text x="302" y="162" fill="#ffffff" font-size="20" font-weight="700">The dump</text>
+    <text x="302" y="192" fill="#8b949e" font-size="12" font-family="'Cascadia Code','Consolas','Courier New',monospace">Somewhere in a dump.</text><text x="302" y="210" fill="#8b949e" font-size="12" font-family="'Cascadia Code','Consolas','Courier New',monospace">Read it carefully.</text>
+    <text x="302" y="234" fill="#22d3ee" font-size="12" font-weight="700" font-family="'Cascadia Code','Consolas','Courier New',monospace">200 PTS</text>
+    <circle cx="458" cy="230" r="4" fill="#22d3ee"/><circle cx="470" cy="230" r="4" fill="#22d3ee"/><circle cx="482" cy="230" r="4" fill="#30363d"/>
+  </g>
+  <g>
+    <rect x="540" y="96" width="232" height="156" rx="12" fill="#161b22" stroke="#ff6a00" stroke-opacity="0.35">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="540" y="96" width="232" height="4" rx="2" fill="#ff6a00"/>
+    <g transform="translate(710 146)" fill="#ff6a00" opacity="0.14"><rect width="4" height="68"/><path d="M4 0 h40 l-10 14 l10 14 h-40z"/></g>
+    <text x="558" y="128" fill="#ff6a00" font-size="13" font-weight="700" font-family="'Cascadia Code','Consolas','Courier New',monospace">#03</text>
+    <text x="754" y="128" fill="#8b949e" font-size="10" letter-spacing="2" text-anchor="end">STEGANOGRAPHY</text>
+    <text x="558" y="162" fill="#ffffff" font-size="20" font-weight="700">Source code</text>
+    <text x="558" y="192" fill="#8b949e" font-size="12" font-family="'Cascadia Code','Consolas','Courier New',monospace">Images have source</text><text x="558" y="210" fill="#8b949e" font-size="12" font-family="'Cascadia Code','Consolas','Courier New',monospace">code too.</text>
+    <text x="558" y="234" fill="#ff6a00" font-size="12" font-weight="700" font-family="'Cascadia Code','Consolas','Courier New',monospace">300 PTS</text>
+    <circle cx="714" cy="230" r="4" fill="#ff6a00"/><circle cx="726" cy="230" r="4" fill="#ff6a00"/><circle cx="738" cy="230" r="4" fill="#ff6a00"/>
+  </g>
+</svg>

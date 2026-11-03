@@ -1,0 +1,6 @@
+# Edited on Windows, rebuilt on Linux runners: keep LF everywhere so the
+# daily workflow never produces whitespace-only diffs.
+* text=auto eol=lf
+
+# Rewritten daily by .github/workflows/profile.yml — collapsed in diffs.
+assets/generated/** linguist-generated=true
